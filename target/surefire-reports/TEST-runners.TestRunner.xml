@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="29.577" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\arghy\eclipse-workspace\Automation-One\target\test-classes;C:\Users\arghy\eclipse-workspace\Automation-One\target\classes;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\arghy\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\arghy\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\arghy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\arghy\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\arghy\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\arghy\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\arghy\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\arghy\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\arghy\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\arghy\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\arghy\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\arghy\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\arghy\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\arghy\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\arghy\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\arghy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\arghy\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\arghy\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\arghy\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\arghy\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\arghy\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\arghy\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\arghy\AppData\Local\Temp\surefire6787494209808249443\surefirebooter-20250916145307193_3.jar C:\Users\arghy\AppData\Local\Temp\surefire6787494209808249443 2025-09-16T14-53-06_990-jvmRun1 surefire-20250916145307193_1tmp surefire_0-20250916145307193_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\arghy\eclipse-workspace\Automation-One\target\test-classes;C:\Users\arghy\eclipse-workspace\Automation-One\target\classes;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\arghy\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\arghy\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\arghy\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\arghy\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\arghy\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\arghy\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\arghy\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\arghy\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\arghy\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\arghy\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\arghy\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\arghy\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\arghy\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-java\7.27.2\cucumber-java-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-core\7.27.2\cucumber-core-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-gherkin\7.27.2\cucumber-gherkin-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.27.2\cucumber-gherkin-messages-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\arghy\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\arghy\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\arghy\.m2\repository\io\cucumber\datatable\7.27.2\datatable-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-plugin\7.27.2\cucumber-plugin-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\docstring\7.27.2\docstring-7.27.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\arghy\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\arghy\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\arghy\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\arghy\.m2\repository\io\cucumber\cucumber-testng\7.27.2\cucumber-testng-7.27.2.jar;C:\Users\arghy\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\arghy\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\arghy\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\arghy\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\arghy\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\arghy\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\arghy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\arghy\eclipse-workspace\Automation-One"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\arghy\AppData\Local\Temp\surefire6787494209808249443\surefirebooter-20250916145307193_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="arghy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\arghy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\arghy\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\arghy\eclipse-workspace\Automation-One"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;C:\Users\arghy\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\dotnet\;C:\Users\arghy\AppData\Local\Microsoft\WindowsApps;C:\Users\arghy\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\arghy\AppData\Local\Programs\Git\cmd;C:\Users\arghy\AppData\Roaming\npm;;C:\Users\arghy\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Navigate to desired category successfully&quot;, &quot;Add to cart functionality&quot;](1)" classname="runners.TestRunner" time="7.343">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Navigate to desired category successfully &amp#27;[90m# file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:12&amp#27;[39m
+In Before A
+In Before B
+In Before C
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser enters &amp#27;[1m"arghya"&amp#27;[22m and &amp#27;[1m"Test@123"&amp#27;[22m&amp#27;[39m                 &amp#27;[90m# stepDefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks the login submit button&amp#27;[39m                 &amp#27;[90m# stepDefinitions.LoginSteps.userClicksTheLoginSubmitButton()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser sees the Dashboard&amp#27;[39m                             &amp#27;[90m# stepDefinitions.LoginSteps.userSeesTheDashboard()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks the &amp#27;[1m"Biography"&amp#27;[22m&amp#27;[39m                        &amp#27;[90m# stepDefinitions.AddToCartSteps.userClicksThe(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe &amp#27;[1m"Biography"&amp#27;[22m should reflect in the url&amp#27;[39m          &amp#27;[90m# stepDefinitions.AddToCartSteps.theShouldReflectInTheUrl(java.lang.String)&amp#27;[39m
+In @After hook:
+Scenario ID: 34d281f9-70be-42cb-bf81-e2341298e705
+Scenario Name: Navigate to desired category successfully
+Scenario Line Number: 12
+Scenario Tag Name(s): []
+Scenario Status: PASSED
+Scenario Uri: file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature
+In After C
+In After B
+In After A
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sep 16, 2025 2:53:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to desired category successfully&quot;, &quot;Add to cart functionality&quot;](2)" classname="runners.TestRunner" time="5.832">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Navigate to desired category successfully &amp#27;[90m# file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:13&amp#27;[39m
+In Before A
+In Before B
+In Before C
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser enters &amp#27;[1m"arghya.paul"&amp#27;[22m and &amp#27;[1m"Test@123"&amp#27;[22m&amp#27;[39m            &amp#27;[90m# stepDefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks the login submit button&amp#27;[39m                 &amp#27;[90m# stepDefinitions.LoginSteps.userClicksTheLoginSubmitButton()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser sees the Dashboard&amp#27;[39m                             &amp#27;[90m# stepDefinitions.LoginSteps.userSeesTheDashboard()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks the &amp#27;[1m"Fiction"&amp#27;[22m&amp#27;[39m                          &amp#27;[90m# stepDefinitions.AddToCartSteps.userClicksThe(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe &amp#27;[1m"Fiction"&amp#27;[22m should reflect in the url&amp#27;[39m            &amp#27;[90m# stepDefinitions.AddToCartSteps.theShouldReflectInTheUrl(java.lang.String)&amp#27;[39m
+In @After hook:
+Scenario ID: 150dea02-e066-415e-835c-a2adbac8f9a5
+Scenario Name: Navigate to desired category successfully
+Scenario Line Number: 13
+Scenario Tag Name(s): []
+Scenario Status: PASSED
+Scenario Uri: file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature
+In After C
+In After B
+In After A
+]]></system-out>
+    <system-err><![CDATA[Sep 16, 2025 2:53:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to desired category successfully&quot;, &quot;Add to cart functionality&quot;](3)" classname="runners.TestRunner" time="6.094">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Navigate to desired category successfully &amp#27;[90m# file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:14&amp#27;[39m
+In Before A
+In Before B
+In Before C
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser enters &amp#27;[1m"arghya"&amp#27;[22m and &amp#27;[1m"Test@123"&amp#27;[22m&amp#27;[39m                 &amp#27;[90m# stepDefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks the login submit button&amp#27;[39m                 &amp#27;[90m# stepDefinitions.LoginSteps.userClicksTheLoginSubmitButton()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser sees the Dashboard&amp#27;[39m                             &amp#27;[90m# stepDefinitions.LoginSteps.userSeesTheDashboard()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks the &amp#27;[1m"Fantasy"&amp#27;[22m&amp#27;[39m                          &amp#27;[90m# stepDefinitions.AddToCartSteps.userClicksThe(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe &amp#27;[1m"Fantasy"&amp#27;[22m should reflect in the url&amp#27;[39m            &amp#27;[90m# stepDefinitions.AddToCartSteps.theShouldReflectInTheUrl(java.lang.String)&amp#27;[39m
+In @After hook:
+Scenario ID: 5a9366da-1d1a-4b28-a70f-575ce6d8fa3f
+Scenario Name: Navigate to desired category successfully
+Scenario Line Number: 14
+Scenario Tag Name(s): []
+Scenario Status: PASSED
+Scenario Uri: file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature
+In After C
+In After B
+In After A
+]]></system-out>
+    <system-err><![CDATA[Sep 16, 2025 2:53:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to desired category successfully&quot;, &quot;Add to cart functionality&quot;](4)" classname="runners.TestRunner" time="5.767">
+    <system-out><![CDATA[
+&amp#27;[1mScenario Outline:&amp#27;[22m Navigate to desired category successfully &amp#27;[90m# file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:15&amp#27;[39m
+In Before A
+In Before B
+In Before C
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser enters &amp#27;[1m"arghya.paul"&amp#27;[22m and &amp#27;[1m"Test@123"&amp#27;[22m&amp#27;[39m            &amp#27;[90m# stepDefinitions.LoginSteps.userEntersCredentials(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks the login submit button&amp#27;[39m                 &amp#27;[90m# stepDefinitions.LoginSteps.userClicksTheLoginSubmitButton()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser sees the Dashboard&amp#27;[39m                             &amp#27;[90m# stepDefinitions.LoginSteps.userSeesTheDashboard()&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks the &amp#27;[1m"Romance"&amp#27;[22m&amp#27;[39m                          &amp#27;[90m# stepDefinitions.AddToCartSteps.userClicksThe(java.lang.String)&amp#27;[39m
+  &amp#27;[32mâœ”&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mthe &amp#27;[1m"Romance"&amp#27;[22m should reflect in the url&amp#27;[39m            &amp#27;[90m# stepDefinitions.AddToCartSteps.theShouldReflectInTheUrl(java.lang.String)&amp#27;[39m
+In @After hook:
+Scenario ID: 6b08c386-a6e5-4ca8-930a-b028e1569ca8
+Scenario Name: Navigate to desired category successfully
+Scenario Line Number: 15
+Scenario Tag Name(s): []
+Scenario Status: PASSED
+Scenario Uri: file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature
+In After C
+In After B
+In After A
+]]></system-out>
+    <system-err><![CDATA[Sep 16, 2025 2:53:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Just for testing&quot;, &quot;Add to cart functionality&quot;](5)" classname="runners.TestRunner" time="2.719">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.AddToCartSteps.userDoesNothing(AddToCartSteps.java:38)
+	at ✽.user does nothing(file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:19)
+]]></failure>
+    <system-out><![CDATA[
+@before @after
+&amp#27;[1mScenario:&amp#27;[22m Just for testing &amp#27;[90m# file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:18&amp#27;[39m
+In Before A
+In Before B
+In Before C
+In Before tag$$$$$$$$$$$$
+User does nothing!!!!!!!!!!!!!
+  &amp#27;[31mâœ˜&amp#27;[39m &amp#27;[31m&amp#27;[1mThen &amp#27;[22muser does nothing&amp#27;[39m &amp#27;[90m# stepDefinitions.AddToCartSteps.userDoesNothing()&amp#27;[39m
+        &amp#27;[31mjava.lang.AssertionError: expected [true] but found [false]&amp#27;[39m
+        &amp#27;[31m	at org.testng.Assert.fail(Assert.java:111)&amp#27;[39m
+        &amp#27;[31m	at org.testng.Assert.failNotEquals(Assert.java:1590)&amp#27;[39m
+        &amp#27;[31m	at org.testng.Assert.assertTrue(Assert.java:57)&amp#27;[39m
+        &amp#27;[31m	at org.testng.Assert.assertTrue(Assert.java:67)&amp#27;[39m
+        &amp#27;[31m	at stepDefinitions.AddToCartSteps.userDoesNothing(AddToCartSteps.java:38)&amp#27;[39m
+        &amp#27;[31m	at âœ½.user does nothing(file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:19)&amp#27;[39m
+In @After hook:
+Scenario ID: b0789149-ac77-43d9-9d91-dbbb7527dcb7
+Scenario Name: Just for testing
+Scenario Line Number: 18
+Scenario Tag Name(s): [@before, @after]
+Scenario Status: FAILED
+Scenario Uri: file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature
+In Failed if block
+
+        &amp#27;[34mEmbedding Just for testingAfter_18_1758014616076 [image/png 52953 bytes]&amp#27;[39m
+
+In After tag$$$$$$$$$$$$
+In After C
+In After B
+In After A
+]]></system-out>
+    <system-err><![CDATA[Sep 16, 2025 2:53:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 139; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.58 s <<< FAILURE! -- in runners.TestRunner
+runners.TestRunner.runScenario["Just for testing", "Add to cart functionality"](5) -- Time elapsed: 2.719 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.AddToCartSteps.userDoesNothing(AddToCartSteps.java:38)
+	at ✽.user does nothing(file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:19)
+

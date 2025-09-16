@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.88" tests="5" skipped="0" failures="1" errors="0" timestamp="2025-09-16T09:23:08.624613600Z">
+<testcase classname="Add to cart functionality" name="Navigate to desired category successfully - #1.1" time="7.25">
+<system-out><![CDATA[
+And user enters "arghya" and "Test@123".....................................passed
+And user clicks the login submit button.....................................passed
+And user sees the Dashboard.................................................passed
+When user clicks the "Biography"............................................passed
+Then the "Biography" should reflect in the url..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to cart functionality" name="Navigate to desired category successfully - #1.2" time="5.832">
+<system-out><![CDATA[
+And user enters "arghya.paul" and "Test@123"................................passed
+And user clicks the login submit button.....................................passed
+And user sees the Dashboard.................................................passed
+When user clicks the "Fiction"..............................................passed
+Then the "Fiction" should reflect in the url................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to cart functionality" name="Navigate to desired category successfully - #1.3" time="6.093">
+<system-out><![CDATA[
+And user enters "arghya" and "Test@123".....................................passed
+And user clicks the login submit button.....................................passed
+And user sees the Dashboard.................................................passed
+When user clicks the "Fantasy"..............................................passed
+Then the "Fantasy" should reflect in the url................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to cart functionality" name="Navigate to desired category successfully - #1.4" time="5.763">
+<system-out><![CDATA[
+And user enters "arghya.paul" and "Test@123"................................passed
+And user clicks the login submit button.....................................passed
+And user sees the Dashboard.................................................passed
+When user clicks the "Romance"..............................................passed
+Then the "Romance" should reflect in the url................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add to cart functionality" name="Just for testing" time="2.714">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.AddToCartSteps.userDoesNothing(AddToCartSteps.java:38)
+	at ✽.user does nothing(file:///C:/Users/arghy/eclipse-workspace/Automation-One/src/test/java/Features/addToCart.feature:19)
+]]>
+</failure>
+<system-out><![CDATA[
+Then user does nothing......................................................failed
+]]></system-out>
+</testcase>
+</testsuite>
